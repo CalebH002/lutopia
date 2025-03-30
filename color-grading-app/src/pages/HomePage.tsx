@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './HomePage.css';
+import './HomePage.css'; // Ensure you have a CSS file for styling
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
