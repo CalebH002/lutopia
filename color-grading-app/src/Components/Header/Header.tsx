@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       </div>
       <div className="header-right">
         {/* Placeholder for user profile icon */}
-        <div className="user-icon-placeholder">👤</div>
+        <div className="user-icon-placeholder" onClick={()=> navigate('/account')}>👤</div>
       </div>
     </header>
   );
