@@ -1,0 +1,13 @@
+.help-container {
+    min-height: 100vh;
+    min-width: 100vw;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #1e1e1e, #3a3a3a);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
