@@ -1,0 +1,14 @@
+/* Base font for the app */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Monospace for "LUT" */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+/* Cursive for "opia" */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --font-base: 'Inter', sans-serif;
+  --font-mono: 'Fira Mono', monospace;
+  --font-cursive: 'Pacifico', cursive;
+}

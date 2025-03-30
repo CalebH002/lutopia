@@ -5,12 +5,18 @@ import HomePage from './pages/HomePage';
 import EditorPage from './pages/EditorPage';
 import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
+import GalleryPage from './pages/GalleryPage';
+import HelpPage from './pages/HelpPage';
+import AccountPage from './pages/AccountPage';
 
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/account" element={<AccountPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path= "/help" element={<HelpPage />} />
         <Route path="/editor" element={<EditorPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/404" element={<NotFoundPage />} />

@@ -1,0 +1,29 @@
+:root {
+    /* Neutral Base */
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    /* Light Greys */
+  --color-gray-400: #777777;
+  --color-gray-300: #999999;
+  --color-gray-200: #cccccc;
+  --color-gray-150: #e0e0e0;
+  --color-gray-100: #f0f0f0;
+  --color-gray-50:  #f9f9f9;
+  
+    /* Dark Greys */
+    --color-gray-900: #0d0d0d;
+    --color-gray-800: #1a1a1a;
+    --color-gray-700: #2b2b2b;
+    --color-gray-600: #3d3d3d;
+    --color-gray-500: #555555;
+  
+    /* Accent Colors (optional for buttons, hovers) */
+    --color-accent: #007bff;
+    --color-accent-hover: #0056b3;
+  
+    /* Text */
+    --color-text-light: #eaeaea;
+    --color-text-muted: #aaaaaa;
+  }
+  
