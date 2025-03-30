@@ -1,11 +1,15 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './HomePage.css'; // Ensure you have a CSS file for styling
+import '../Components/Header/Header'
+import Header from '../Components/Header/Header';
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
+    <>
+    <Header />
     <div className="home-container">
       <h1 className="home-title">🎨 LUTopia</h1>
       <p className="home-description">
@@ -15,6 +19,8 @@ const HomePage: React.FC = () => {
         Get Started
       </button>
     </div>
+
+  </>
   );
 };
 
