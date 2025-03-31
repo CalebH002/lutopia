@@ -86,6 +86,7 @@
   }
   
   .auth-button {
+    font-family: var(--font-mono);
     color: white;
     background: none;
     border: none;
