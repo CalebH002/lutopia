@@ -21,9 +21,9 @@ const Header: React.FC = () => {
 
   return (
     <header className="header">
-      <div className="header-left" onClick={() => navigate('/')}>
-        <img src="/assets/lutopia-icon.png" alt="LUTopia Icon" className="logo-icon" />
-        <img src="/assets/lutopia.png" alt="LUTopia Logo" className="logo-text" />
+      <div className="header-left" >
+        <img src="/assets/lutopia-icon.png" alt="LUTopia Icon" className="logo-icon" onClick={() => navigate('/')} />
+        <img src="/assets/lutopia.png" alt="LUTopia Logo" className="logo-text" onClick={() => navigate('/')} />
 
         <div className="nav-buttons">
           <Link to="/gallery">Gallery</Link>
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
           )}
         </div>
 
-        <div className="user-icon-placeholder">👤</div>
+        <div className="user-icon-placeholder" onClick={()=>navigate('/account')}>👤</div>
       </div>
     </header>
   );
