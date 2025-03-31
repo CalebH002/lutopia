@@ -8,12 +8,16 @@ import NotFoundPage from './pages/NotFoundPage';
 import GalleryPage from './pages/GalleryPage';
 import HelpPage from './pages/HelpPage';
 import AccountPage from './pages/AccountPage';
+import FirebaseTest from './pages/FireBaseTest';
+import SignupPage from './pages/SignupPage';
 
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/test-firebase" element={<FirebaseTest />} />
         <Route path="/account" element={<AccountPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path= "/help" element={<HelpPage />} />
