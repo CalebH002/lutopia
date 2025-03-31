@@ -10,6 +10,7 @@ import HelpPage from './pages/HelpPage';
 import AccountPage from './pages/AccountPage';
 import FirebaseTest from './pages/FireBaseTest';
 import SignupPage from './pages/SignupPage';
+import LoginPage from './pages/LoginPage';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/test-firebase" element={<FirebaseTest />} />
         <Route path="/account" element={<AccountPage />} />
         <Route path="/gallery" element={<GalleryPage />} />

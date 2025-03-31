@@ -1,13 +1,22 @@
-.auth-container {
-  width: 100%;
-  max-width: 400px;
-  padding: 2rem;
-  background-color: #1f1f1f;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  color: white;
-}
+.login-page {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212; /* Optional dark background */
+  }
+  
+  .auth-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+  }
   
   .auth-container h2 {
     font-size: 1.8rem;
@@ -55,11 +64,3 @@
     margin-top: 0.5rem;
   }
   
-  .signup-page {
-    min-width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #121212; /* Optional dark background */
-  }

@@ -23,6 +23,7 @@ const SignupPage: React.FC = () => {
   };
 
   return (
+    <div className="signup-page">
     <div className="auth-container">
       <h2>Create an Account</h2>
       <form onSubmit={handleSignup} className="auth-form">
@@ -43,6 +44,7 @@ const SignupPage: React.FC = () => {
         <button type="submit">Sign Up</button>
         {error && <p className="auth-error">{error}</p>}
       </form>
+    </div>
     </div>
   );
 };
