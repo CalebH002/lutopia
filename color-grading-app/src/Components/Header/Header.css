@@ -78,4 +78,31 @@
     cursor: pointer;
   }
   
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .auth-button {
+    font-family: var(--font-mono);
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  
+  .auth-button:hover {
+    color: var(--color-accent-hover, #4caf50);
+  }
+  
+  .user-email {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
   
